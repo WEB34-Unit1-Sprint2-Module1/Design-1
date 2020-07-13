@@ -22,13 +22,14 @@ footer{
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 25px;
+  padding-top: 25px;
   flex-direction: row;
 }
 .boxes2{
   display: flex;
   justify-content: space-evenly;
   padding-bottom: 25px;
-  flex-wrap: wrap;
+  padding-top: 25px;
 }
 
 header{
@@ -88,7 +89,7 @@ padding-left: 50px;
 
 
 
-  .boxes1 {
+  .boxes1{
     text-align: center;
     display: flex;
     justify-content: space-evenly;
@@ -102,6 +103,13 @@ padding-left: 50px;
 
   .boxes p{
     margin-right: 20%;
+  }
+
+  .boxes2{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
   }
 
 }
