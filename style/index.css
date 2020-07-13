@@ -1,6 +1,6 @@
-img {
-  width: 200px;
-}
+/* img {
+  width: 100%;
+} */
 
 #footbutton {
   width: 100px;
@@ -87,15 +87,6 @@ padding-left: 50px;
     padding-bottom: 10px;
   }
 
-
-
-  .boxes1{
-    text-align: center;
-    display: flex;
-    justify-content: space-evenly;
-
-  }
-
   .boxes{
     display: flex;
     flex-direction: column;
@@ -103,6 +94,13 @@ padding-left: 50px;
 
   .boxes p{
     margin-right: 20%;
+  }
+
+  .boxes1{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+
   }
 
   .boxes2{
@@ -114,6 +112,69 @@ padding-left: 50px;
 
 }
 
-@media(max-width: 500px){
 
+/* moobile - 500px */
+@media(max-width: 500px){
+  body{
+    text-align: center;
+  }
+
+  header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav{
+    display: flex;
+    flex-direction: column;
+  }
+
+  img{
+    width: 100%
+  }
+
+  .topsection{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .toppart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-right: 10%;
+  }
+
+  .boxes{
+    display: flex;
+    width: 40%;
+    padding-top: 10px;
+  }
+
+  .boxes p {
+    margin-left: 15%;
+    margin-top: -5px;
+  }
+
+  .boxes1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  .boxes2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  #footbutton{
+    width: 40%;
+  }
+  
 }
